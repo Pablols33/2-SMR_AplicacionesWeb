@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paguna de conteacto</title>
+</head>
+<body>
+    <h1>Pagina de contacto</h1>
+    <a href="index.html"> Enlace de vuelta</a><br>
+    <img src="img/imagen jpg.jpg" alt="imagen de Vandelvira" width="400px" height="300px" title="Vandelvira">
+
+<br>
+    <form action="datos.php" method="post">
+        <fieldset>
+            <legend> Formulario datos personales</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" value="Pablo"><br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" placeholder="escriba aqui su apellido"><br>
+            <label>Edad</label>
+            <input type="number" id="edad" name="edad"><br>
+            <label>Contraseña</label>
+            <input type="password" id="clave" name="clave"><br>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend> Lista desplegable</legend>
+            <select name="lista">
+                <option value="modulo1"> Sistemas Operativos en Red</option>
+                <option value="modulo1"> Aplicaciones Web</option>
+                <option value="modulo1"> Fundamentos de Programacion</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Listado de la compra</legend>
+            <input type="checkbox" id="elemento1" name="elemento1" value="leche">
+            <label for="elemento1"> Caja de leche</label><br>
+            <input type="checkbox" id="elemento2" name="elemento1" value="pan" checked="true">
+            <label for="elemento1"> Pan</label><br>
+            <input type="checkbox" id="elemento3" name="elemento1" value="huevos">
+            <label for="elemento1"> Docena de huevos</label><br>
+
+        </fieldset> 
+        <br>
+        <label for="comentario"> Comentarios:</label> <br>
+        <textarea id="comentario" name="comentario" rows="10" cols="40"></textarea> <br>
+        <button type="submit"> Enviar</button>
+        <button type="reset"> Borrar</button>
+    </form>
+</body>
+</html>
