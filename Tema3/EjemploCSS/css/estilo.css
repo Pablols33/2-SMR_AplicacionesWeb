@@ -1,18 +1,69 @@
 /* 
 CSS de mi pagina web de Pablo
 */
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*background-image: url("../img/images.jpg");
+    background-repeat:no-repeat;*/
+
+}
+
 h1 {
     color:navy;
     text-decoration: underline;
     text-decoration-color:orange;
     text-decoration-style: wavy; 
+    text-align: center;
 }
 
-h2{
+h2 {
     color:teal;
-
 }
 
 a{
     text-decoration: none;
+}
+
+#titulo {
+    color:gray;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.favorito { 
+    color:red;
+    font-weight: bold;
+}
+
+.listaA{
+    color:white;
+    background-color: teal;
+}
+
+.listaB{
+    background-color:#914344;
+    color:white;
+
+}
+
+.curso{
+    border: 2px solid teal;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:blue;
+}
+
+a:hover{
+    background-color: orange;
 }
