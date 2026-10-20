@@ -8,8 +8,8 @@
 
 body {
    font-family: Arial, Helvetica, sans-serif;
-   color:white;
-   background-color: blue;
+   color:rgb(255, 254, 254);
+   background-color: rgb(0, 142, 161);
 }
 
 #cabecera {
@@ -18,4 +18,82 @@ body {
    background-repeat: no-repeat;
    background-size: cover;
    height: 100px;
+   padding: 70px;
+   border: 20px;
+}
+.subtitulo{
+   font-style: italic;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+#Titulo{
+   font-family: 'Times New Roman', Times, serif;
+}
+.menu {
+    background-color: #12294a;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu a {
+    display: inline-block;        /* permite darle padding como a una caja */
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #00a99d;
+}
+
+h2 {
+   color: black;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-decoration: double;
+}
+
+.parrafo{
+   color: white;
+   font-size: 20px;
+   line-height: 20px;
+   text-align: justify;
+}
+
+.seccion1{
+   border: 2px solid rgb(255, 255, 255);
+   padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+}
+
+.seccion2{
+   border: 2px solid rgb(255, 255, 255);
+   padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+}
+
+.seccion3{
+   border: 2px solid rgb(255, 255, 255);
+   padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+}
+
+.seccion4{
+   border: 2px solid rgb(255, 255, 255);
+   padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+}
+
+.listaA{
+   color: white;
+   font-size: 20px;
+}
+
+.listaB{
+   color: white;
+   font-size: 20px;
 }
