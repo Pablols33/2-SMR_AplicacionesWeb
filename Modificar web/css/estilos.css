@@ -30,7 +30,7 @@ body {
    font-family: 'Times New Roman', Times, serif;
 }
 .menu {
-    background-color: #12294a;
+    background-color: #000308;
     padding: 20px;
     text-align: center;
 }
@@ -115,12 +115,12 @@ th, td {
 }
 
 th {
-   background-color: #12294a;
-   color: white;
+   background-color: #000204;
+   color: rgb(245, 244, 244);
 }
 
 tr:nth-child(even) {
-   background-color: #f2f2f2;
+   background-color: #008ea1;
 }
 
 tr:hover {
