@@ -127,4 +127,91 @@ tr:hover {
    background-color: #d9f2ef;
 }
 
-/*Formulario*\
+#pie1{
+   background-color: black;
+   color:white;
+   text-align: center;
+   padding: 10px;
+   margin-top: 20px;
+}
+
+/*Formulario*/
+
+.menu2 {
+    background-color: #000308;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu a {
+    display: inline-block;        /* permite darle padding como a una caja */
+    color: rgb(249, 249, 249);
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #00a99d;
+}
+
+.parrafo2{
+   color: white;
+   font-size: 20px;
+   line-height: 20px;
+   text-align: justify;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+fieldset {
+    border: 2px solid #00a99d;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #12294a;
+}
+
+label {
+    display: block;                  /* cada label en su propia línea */
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+    border-color: #00a99d;
+    outline: none;
+}
+
+button {
+    background-color: #00a99d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;                 /* manita al pasar el ratón */
+}
+
+button:hover {
+    background-color: #008a80;
+}
+
+#pie2{
+   background-color: black;
+   color:white;
+   text-align: center;
+   padding: 10px;
+   margin-top: 20px;
+}
