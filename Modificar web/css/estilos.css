@@ -8,22 +8,22 @@
 
 body {
    font-family: Arial, Helvetica, sans-serif;
-   color:rgb(255, 254, 254);
-   background-color: rgb(0, 142, 161);
+   color:rgb(7, 7, 7);
+   background-color: rgb(252, 252, 252);
 }
 
 #cabecera {
-   background-image: url(../img/banner.jpg);
-   text-align: center;
-   background-repeat: no-repeat;
+   background-image: url(../img/banner.jpg); 
+   text-align: center; /*srive para centrar el texto*/
+   background-repeat: no-repeat; /*para que no se repita la imagen del fondo*/
    background-size: cover;
    height: 100px;
    padding: 70px;
    border: 20px;
 }
 .subtitulo{
-   font-style: italic;
-   font-family: 'Times New Roman', Times, serif;
+   font-style: italic; /*poner la letra en cursiva*/
+   font-family: 'Times New Roman', Times, serif; /*el formato de la letra*/
 }
 
 #Titulo{
@@ -37,10 +37,10 @@ body {
 
 .menu a {
     display: inline-block;        /* permite darle padding como a una caja */
-    color: white;
+    color: rgb(5, 5, 5);
     text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 5px;
+    padding: 8px 16px; /*dejar espacio entre las palabras y el borde*/
+    border-radius: 5px; /*para que el borde quede redondo*/
 }
 
 .menu a:hover {
@@ -54,47 +54,48 @@ h2 {
 }
 
 .parrafo{
-   color: white;
-   font-size: 20px;
-   line-height: 20px;
+   color: rgb(0, 0, 0);
+   font-size: 20px; /*tamañp de la letra*/
+   line-height: 20px; /* la altura de cada linea de la caja de texto*/
    text-align: justify;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .seccion1{
-   border: 2px solid rgb(255, 255, 255);
+   border: 2px solid rgb(2, 2, 2);
    padding: 20px;
    margin: 20px;
    border-radius: 20px;
 }
 
 .seccion2{
-   border: 2px solid rgb(255, 255, 255);
+   border: 2px solid rgb(0, 0, 0);
    padding: 20px;
    margin: 20px;
    border-radius: 20px;
 }
 
 .seccion3{
-   border: 2px solid rgb(255, 255, 255);
+   border: 2px solid rgb(5, 5, 5);
    padding: 20px;
    margin: 20px;
    border-radius: 20px;
 }
 
 .seccion4{
-   border: 2px solid rgb(255, 255, 255);
+   border: 2px solid rgb(1, 1, 1);
    padding: 20px;
    margin: 20px;
    border-radius: 20px;
 }
 
 .listaA{
-   color: white;
+   color: rgb(4, 4, 4);
    font-size: 20px;
 }
 
 .listaB{
-   color: white;
+   color: rgb(0, 0, 0);
    font-size: 20px;
 }
 
@@ -103,13 +104,14 @@ a:link{
 }
 
 table {
-    width: 80%;
-    margin: 20px auto;              
-    border-collapse: collapse;       
+   width: 80%;
+   margin: 20px auto;              
+   border-collapse: collapse; 
+   border-radius: 10px;      
 }
 
 th, td {
-   border: 1px solid #ccc;          
+   border: 1px solid #020202;         
    padding: 8px 12px;
    text-align: left;
 }
@@ -120,7 +122,7 @@ th {
 }
 
 tr:nth-child(even) {
-   background-color: #008ea1;
+   background-color: #fbfefe;
 }
 
 tr:hover {
@@ -156,20 +158,22 @@ tr:hover {
 }
 
 .parrafo2{
-   color: white;
+   color: rgb(1, 1, 1);
    font-size: 20px;
    line-height: 20px;
    text-align: justify;
+   text-align: center;
+   font-family:'Times New Roman', Times, serif;
 }
 
 form {
-    max-width: 500px;
-    margin: 20px auto;
+    max-width: 550px;
+    margin: 30px auto;
 }
 
 fieldset {
     border: 2px solid #00a99d;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-bottom: 15px;
 }
 
@@ -180,12 +184,12 @@ legend {
 
 label {
     display: block;                  /* cada label en su propia línea */
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 input[type="text"], input[type="email"], select, textarea {
     width: 100%;
-    padding: 8px;
+    padding: 3px;
     border: 1px solid #aaa;
     border-radius: 4px;
 }
@@ -196,12 +200,12 @@ input:focus, textarea:focus {
 }
 
 button {
-    background-color: #00a99d;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;                 /* manita al pasar el ratón */
+   background-color: #00a99d;
+   color: white;
+   border: none;
+   padding: 15px 25px;
+   border-radius: 10px;
+   cursor: pointer;                 /* manita al pasar el ratón */
 }
 
 button:hover {
@@ -214,4 +218,18 @@ button:hover {
    text-align: center;
    padding: 10px;
    margin-top: 20px;
+}
+
+.titulo1 {
+   border: 10px solid #000204;
+   margin-bottom: 10px;
+   line-height: 50px;
+   padding: 5px;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafo3{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
 }
