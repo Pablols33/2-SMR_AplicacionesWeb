@@ -6,7 +6,7 @@
 </head>
 <body>
     <!-- CAMBIA: pon tu nombre y apellidos -->
-    <h1>Práctica 3 de NOMBRE APELLIDOS</h1>
+    <h1>Práctica 3 de Pablo Lechuga Sánchez</h1>
     <h2>Inscripción recibida</h2>
 
     <?php
