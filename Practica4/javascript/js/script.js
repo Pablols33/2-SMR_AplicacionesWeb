@@ -1,7 +1,6 @@
 // Práctica 3 — JavaScript
 // Nombre y apellidos: Pablo Lechuga Sánchez
 // =========================================================
-
 // ===== A1. Mi tarjeta =====
 // Escribo mi saludo dentro de #saludo con innerHTML y cambio
 // el color del texto y el fondo de la tarjeta con style.
@@ -42,6 +41,10 @@ function modoDia() {
 
 // ===== A4. Colores de la tarjeta =====
 // Recibe un color como parámetro y lo pone de fondo en #tarjeta.
+function colorTarjeta(color) {
+    document.getElementById("tarjeta").style.backgroundColor = color;
+}
+// Pone como fondo de la tarjeta el color que recibe el botón.
 function colorTarjeta(color) {
     document.getElementById("tarjeta").style.backgroundColor = color;
 }

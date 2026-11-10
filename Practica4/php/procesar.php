@@ -12,6 +12,10 @@
     <?php
         // ESCRIBE AQUÍ TU CÓDIGO PHP:
         // 1. Recoge el nombre, la edad y el ciclo que llegan del formulario
+        // Recojo los tres datos que llegan por POST desde el formulario.
+        // La edad la convierto a número entero con intval().
+        $nombre = $_POST["nombre"];
+
         // 2. Muestra un saludo con el nombre y el ciclo
         // 3. Muestra si es mayor de edad (18 o más) o menor de edad
 
